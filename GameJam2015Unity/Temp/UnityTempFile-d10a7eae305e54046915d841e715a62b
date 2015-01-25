@@ -1,0 +1,70 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files (x86)/Unity4.6/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files (x86)/Unity4.6/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll"
+-r:"C:/Program Files (x86)/Unity4.6/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_4_6_1
+-define:UNITY_4_6
+-define:UNITY_IPHONE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_NEW_HIERARCHY 
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_MONO
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:UNITY_IPHONE_API
+-define:ENABLE_4_6_FEATURES
+-define:INCLUDE_WP_BLUE_SUPPORT
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_GAMECENTER
+-define:UNITY_IOS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+Assets/Scenes/PuzzleScenes/AppleCatcher/AppleBehaviour.cs
+Assets/Scenes/PuzzleScenes/AppleCatcher/BasketBehaviour.cs
+Assets/Scenes/PuzzleScenes/AppleCatcher/ManagerBehaviour.cs
+"Assets/Scenes/PuzzleScenes/Balloon Popper/Balloon Popper Scripts/BalloonPopper.cs"
+"Assets/Scenes/PuzzleScenes/Balloon Popper/Balloon Popper Scripts/GameController.cs"
+"Assets/Scenes/PuzzleScenes/Balloon Popper/Balloon Popper Scripts/SpawnBalloon.cs"
+"Assets/Scenes/PuzzleScenes/Balloon Popper/Balloon Popper Scripts/TouchControl.cs"
+"Assets/Scenes/PuzzleScenes/Balloon Popper/Balloon Popper Scripts/iPhoneCamera.cs"
+"Assets/Scenes/PuzzleScenes/Balloon Pumping/Manager.cs"
+"Assets/Scenes/PuzzleScenes/Balloon Pumping/PumpScript.cs"
+"Assets/Scenes/PuzzleScenes/Find The Monster/Scripts/FindTheMonster.cs"
+"Assets/Scenes/PuzzleScenes/Find The Monster/Scripts/KillMonster.cs"
+"Assets/Scenes/PuzzleScenes/Find The Monster/Scripts/MoveLight.cs"
+"Assets/Scenes/PuzzleScenes/Find The Monster/Scripts/SpawnMonsters.cs"
+"Assets/Scenes/PuzzleScenes/Mountain Reception(Legacy)/RaycastReception.cs"
+Assets/Scenes/PuzzleScenes/PhoneSignal/PhoneSignalManagerBehaviour.cs
+Assets/Scenes/PuzzleScenes/PhoneSignal/SateliteBehaviour.cs
+Assets/Scenes/PuzzleScenes/PhoneSignal/WaveBehaviour.cs
+"Assets/Scenes/PuzzleScenes/Shake The Bugs/DeleteBugs.cs"
+"Assets/Scenes/PuzzleScenes/Shake The Bugs/RandomMovement.cs"
+"Assets/Scenes/PuzzleScenes/Shake The Bugs/SpawnBugs.cs"
+Assets/Scripts/Constants/GameSettings.cs
+"Assets/Scripts/Main Menu/ExitGame.cs"
+"Assets/Scripts/Main Menu/GameControllerCleanUp.cs"
+Assets/Scripts/SceneChange/ChangeSceneTo.cs
+-r:"C:/Program Files (x86)/Unity4.6/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll"
+-r:"C:/Program Files (x86)/Unity4.6/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll"
