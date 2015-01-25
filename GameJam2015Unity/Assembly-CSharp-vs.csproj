@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scenes\PuzzleScenes\Shake The Bugs\RandomMovement.cs" />
      <Compile Include="Assets\Scenes\PuzzleScenes\Shake The Bugs\SpawnBugs.cs" />
      <Compile Include="Assets\Scripts\Constants\GameSettings.cs" />
+     <Compile Include="Assets\Scripts\CountdownManager.cs" />
      <Compile Include="Assets\Scripts\Main Menu\ExitGame.cs" />
      <Compile Include="Assets\Scripts\Main Menu\GameControllerCleanUp.cs" />
      <Compile Include="Assets\Scripts\SceneChange\ChangeSceneTo.cs" />
