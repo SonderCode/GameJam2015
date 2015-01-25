@@ -15,7 +15,14 @@ public class MoveLight : MonoBehaviour {
 
 	void GetHitPoint()
 	{
-		Vector3 temPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+		var mousePos = Input.mousePosition;
+
+		mousePos.z = 7; // select distance = 10 units from the camera
+
+		Debug.Log(Camera.main.ScreenToWorldPoint(mousePos));
+
+		Vector3 temPos = Camera.main.ScreenToWorldPoint (mousePos);
+
 		LightToMove.transform.position = temPos;
 	}
 }
