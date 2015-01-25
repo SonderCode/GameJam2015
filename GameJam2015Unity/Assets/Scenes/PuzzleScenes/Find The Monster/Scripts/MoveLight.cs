@@ -11,6 +11,7 @@ public class MoveLight : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		GetHitPoint ();
+		RayKiller ();
 	}
 
 	void GetHitPoint()
@@ -19,10 +20,18 @@ public class MoveLight : MonoBehaviour {
 
 		mousePos.z = 7; // select distance = 10 units from the camera
 
-		Debug.Log(Camera.main.ScreenToWorldPoint(mousePos));
-
 		Vector3 temPos = Camera.main.ScreenToWorldPoint (mousePos);
 
 		LightToMove.transform.position = temPos;
 	}
+
+	void RayKiller()
+	{
+		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		RaycastHit hit;
+		if (Physics.Raycast(ray, out hit))
+		{
+			hit.transform.localScale -= new Vector3(0.01f,0.01f,0.01f);
+		}
+    }
 }

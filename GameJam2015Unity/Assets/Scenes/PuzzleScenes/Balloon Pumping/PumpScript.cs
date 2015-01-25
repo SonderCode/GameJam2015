@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PumpScript : MonoBehaviour {
-	
+
 	// Use this for initialization
 	void Start () {
 	
@@ -30,6 +30,7 @@ public class PumpScript : MonoBehaviour {
 
 	public void ExpandBalloon()
 	{
+		if(GameObject.Find("Balloon-BlowUp") != null)
 		transform.localScale += new Vector3 (0.6f, 0.6f, 0.6f);
 	}
 }
